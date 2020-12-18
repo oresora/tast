@@ -8,11 +8,11 @@ DualShock3 controler(PC_10,PC_11,9600);
 
 int main() {
 
-  // put your setup code here, to run once:
+  // put your setup code here, to run once:     
   
 
   while(1) {
-  
+    pc.printf("%d",jslx);
     controler.StateHold();
   }
 }
